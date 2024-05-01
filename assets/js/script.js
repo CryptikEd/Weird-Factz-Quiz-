@@ -32,5 +32,23 @@ document.addEventListener("DOMContentLoaded", function() {
         // Hide the quiz introduction page
         document.getElementById("beforewestart").style.display = "none";
       });
-    
+      
+      
+       
+      // Define variables to keep track of the score and current question number
+        var score = 0;
+        var currentQuestion = 1;
+
+
+        function calculateScore(answer) {
+            // Increment current question number
+            currentQuestion++;
+          
+            // Get the container of the current question
+            var currentQuestionContainer = document.getElementById("game" + (currentQuestion - 1));
+          
+            // Reset the color of all option buttons in the current question
+            currentQuestionContainer.querySelectorAll('.option-btn').forEach(function(button) {
+                button.style.backgroundColor = '';
+            });
 });
