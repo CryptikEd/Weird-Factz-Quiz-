@@ -50,5 +50,13 @@ document.addEventListener("DOMContentLoaded", function() {
             // Reset the color of all option buttons in the current question
             currentQuestionContainer.querySelectorAll('.option-btn').forEach(function(button) {
                 button.style.backgroundColor = '';
-            });
+        });
+
+        // Change color of selected answer button based on correctness
+        var selectedButton = currentQuestionContainer.querySelector('button[value="' + answer + '"]');
+        if (answer === "correct") {
+        selectedButton.style.backgroundColor = "green";
+        } else {
+        selectedButton.style.backgroundColor = "red";
+        }
 });
