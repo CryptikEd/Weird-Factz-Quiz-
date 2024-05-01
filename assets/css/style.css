@@ -28,7 +28,7 @@ body {
 .text-block {
     text-align: center ;
     color: #124b8d;
-    background-color: lightgrey ;
+    background-color: lightgrey;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
@@ -47,6 +47,12 @@ body {
 }
   
 .option-btn {
-    padding:10px 20px ;
+    padding:10px 20px;
     margin-bottom: 10 px;
+}
+
+.back-btn {
+    padding: 10px 20px; 
+    margin-top: 20px;
+    
 }
