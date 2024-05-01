@@ -59,4 +59,21 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
             selectedButton.style.backgroundColor = "red";
             }
+
+            // Delay before opening the next question
+            setTimeout(function() {
+            // Open the next question
+            var nextQuestionContainer = document.getElementById("game" + currentQuestion);
+            if (nextQuestionContainer) {
+            // Hide the current question
+            currentQuestionContainer.style.display = 'none';
+            // Show the next question
+            nextQuestionContainer.style.display = 'block';
+            } else {
+            // End of the quiz
+            displayResults();
+            }
+            }, 300); // 0.3 seconds delay
+
+            
 });
