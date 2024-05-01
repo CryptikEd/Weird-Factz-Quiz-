@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("readyBtn").addEventListener("click", function () {
         var playerName = document.getElementById("nameInput").value;
         if (playerName.trim() === "") {
-            alert("Please enter your name!");
+            Swal.fire("Please enter your name!");
         } else if (!/^[a-zA-Z]+$/.test(playerName)) {
-            alert("Please enter a valid name using only letters!");
+            Swal.fire("Please enter a valid name using only letters!");
         } else {
-            alert("Welcome, " + playerName + "! Let's start the quiz!");
+            Swal.fire("Welcome, " + playerName + "! Let's start the quiz, there are 7 weird questions ahead");
             // Hide the quiz introduction page
             document.getElementById("beforewestart").style.display = "none";
             // Show the first question page
