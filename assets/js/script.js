@@ -117,4 +117,21 @@ document.addEventListener("DOMContentLoaded", function () {
         // Display the final score
         document.getElementById('scoreDisplay').textContent = score;
     }
+
+    document.getElementById('tryAgainBtn').addEventListener('click', function () {
+        // Reset score and currentQuestion variables
+        score = 0;
+        currentQuestion = 1;
+
+        // Hide the result box
+        document.getElementById('resultBox').style.display = 'none';
+
+        // Reset button colors
+        document.querySelectorAll('.option-btn').forEach(function (button) {
+            button.style.backgroundColor = '';
+        });
+
+        // Show the welcome page
+        document.getElementById('welcome').style.display = 'block';
+    });
 });
