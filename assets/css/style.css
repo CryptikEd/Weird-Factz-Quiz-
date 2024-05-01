@@ -61,6 +61,6 @@ body {
     background-color: #0056b3;
 }
 
-div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+.swal2-container button:where(.swal2-styled).swal2-confirm {
 background-color: #124b8d; 
 }
