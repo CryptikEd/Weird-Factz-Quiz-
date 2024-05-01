@@ -74,6 +74,10 @@ document.addEventListener("DOMContentLoaded", function() {
             displayResults();
             }
             }, 300); // 0.3 seconds delay
+            // Update score based on the selected answer
+            if (answer === "correct") {
+            score += 10; // Add 10 points for a correct answer
+            }
+        }
 
-            
 });
