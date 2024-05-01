@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    document.querySelectorAll(".option-btn").forEach(function(button) {
-        button.addEventListener("click", function(event) {
+    document.querySelectorAll(".option-btn").forEach(function (button) {
+        button.addEventListener("click", function (event) {
             // Prevent the event from propagating to parent elements
             event.stopPropagation();
             // Get the value of the selected answer
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Calculate the score based on the selected answer
             calculateScore(selectedAnswer);
             // Reset the color of all buttons
-            this.parentNode.querySelectorAll('.option-btn').forEach(function(btn) {
+            this.parentNode.querySelectorAll('.option-btn').forEach(function (btn) {
                 btn.style.backgroundColor = '';
             });
             // Highlight the selected button
@@ -102,4 +102,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
+
+    // Function to display the quiz results
+    function displayResults() {
+        // Hide all question containers
+        document.querySelectorAll('.container').forEach(function (container) {
+            container.style.display = 'none';
+        });
+
+        // Show the result box
+        var resultBox = document.getElementById('resultBox');
+        resultBox.style.display = 'block';
+
+        // Display the final score
+        document.getElementById('scoreDisplay').textContent = score;
+    }
 });
