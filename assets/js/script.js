@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-
+            // Event listener for the "Let's begin" button
     document.getElementById("beginBtn").addEventListener("click", function() {
-        
+            // Hide the welcome page
         document.getElementById("welcome").style.display = "none";
-      
+            // Show the quiz introduction page
         document.getElementById("beforewestart").style.display = "block";
     }); 
     
@@ -24,5 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("playerNameDisplay").textContent = playerName;
         }
     });
-    
+
+
 });
