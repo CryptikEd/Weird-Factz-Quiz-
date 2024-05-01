@@ -80,4 +80,26 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    document.querySelectorAll(".option-btn").forEach(function(button) {
+        button.addEventListener("click", function(event) {
+            // Prevent the event from propagating to parent elements
+            event.stopPropagation();
+            // Get the value of the selected answer
+            var selectedAnswer = this.getAttribute("value");
+            // Calculate the score based on the selected answer
+            calculateScore(selectedAnswer);
+            // Reset the color of all buttons
+            this.parentNode.querySelectorAll('.option-btn').forEach(function(btn) {
+                btn.style.backgroundColor = '';
+            });
+            // Highlight the selected button
+            if (selectedAnswer === "correct") {
+                this.style.backgroundColor = "green";
+            } else {
+                this.style.backgroundColor = "red";
+            }
+        });
+    });
+
+
 });
