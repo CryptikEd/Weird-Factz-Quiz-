@@ -19,3 +19,18 @@ body {
     display: flex;
     justify-content: center; 
   }
+
+.banner {
+    color: white;
+  
+}
+
+.text-block {
+    text-align: center ;
+    color: #124b8d;
+    background-color: lightgrey ;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
