@@ -1,3 +1,21 @@
 body {
     font-family:'ADLaM Display';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: #124b8d;
 }
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+
+.image {
+    margin-top: 10px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center; 
+  }
