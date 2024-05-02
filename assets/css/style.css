@@ -65,8 +65,7 @@ body {
 }
 
 .swal2-container button:where(.swal2-styled).swal2-confirm {
-background-color: #124b8d;
-border-color: #124b8d; 
+background-color: #124b8d; 
 }
 
 @media screen and (max-width: 768px) {
