@@ -11,22 +11,22 @@
 
 <body>
 
-    <div id="welcome" class="container">
-      <img src="assets\images\weirdfactzbanner.png" alt="Weird Facts Image" class="image">
-      <div class="text-block">
-        <p>Did you know that Australia is actually bigger than the moon? 
-            Me neither!
-            <br>
-            <br>
-            Welcome to The WEIRD FACTZ Quiz game, where the most bizarre answer usually is the correct one...</p>
-            <button id="beginBtn" class="btn">Let's begin</button>
-       </div>   
-    </div>
-
-    <div id="beforewestart" class="container" style="display: none;">
-        <img src="assets/images/quizkeeper.gif" alt="Emoji image">
+    <section id="welcome" class="container">
+        <img src="assets\images\weirdfactzbanner.png" alt="Weird Facts Image" class="image">
         <div class="text-block">
-            <p>Before we get started, let's get to know each other.
+            <p>Did you know that Australia is actually bigger than the moon? 
+                Me neither! 
+                <br>
+                <br>
+                Welcome to The WEIRD FACTZ Quiz game, where the most bizarre answer usually is the correct one...</p>
+            <button id="beginBtn" class="btn">Let's begin</button>
+        </div>
+    </section>
+
+    <section id="beforewestart" class="container" style="display: none;">
+        <img src="assets\images\quizkeeper.gif" alt="Quiz Keeper Ed" class="image">
+        <div class="text-block">
+            <p>Before we get started, let's get to know each other. 
             <br>Im the Weird Factz quiz-keeper, but you can call me Ed!</p>
             <p>What is your name?</p>
             <input type="text" id="nameInput" placeholder="Enter your name">
@@ -35,17 +35,12 @@
             <button id="readyBtn" class="btn">Ready!</button>
             <button id="backBtn" class="btn">Back</button>
         </div>
-    </div>
+    </section>
 
-    <div id="game1" class="container" style="display: none;">
-        <div class="banner">
-            1.Real life GoT?
-        </div>
-        <div class="image">
-            <img src="assets\images\lochness.png" alt="Seamonsters Image"> 
-        </div>
+    <section id="game1" class="container" style="display: none;">
+        <img src="assets\images\lochness.png" alt="Question Image" class="image">
         <div class="text-block">
-            <p>Scotland is known for both folklore and myths, just take the Loch Ness monster for example. However, their national animal is just on a another level. Which one is it?</p>
+            <p>1. Scotland is known for both folklore and myths, just take the Loch Ness monster for example. However, their national animal is just on a another level. Which one is it?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">Leprechaun</button>
                 <button class="btn option-btn" value="correct">Unicorn</button>
@@ -53,74 +48,54 @@
                 <button class="btn option-btn" value="incorrect">Centaur</button>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div id="game2" class="container" style="display: none;">
-        <div class="banner">
-            2. To the thieves dismay
-        </div>
-        <div class="image">
-            <img src="assets\images\fingerprint.gif" alt="Fingerprint image">
-        </div>
-        <div class="text-block">
-            <p>As we are all well aware of, each persons fingerprints are unique in this world. But there is something else that sets us aside from everybody else. What is it?</p>
-            <div class="answers">
-                <button class="btn option-btn" value="incorrect">Hair follicles</button>
-                <button class="btn option-btn" value="incorrect">Belly buttons</button>
-                <button class="btn option-btn" value="correct">Tongue prints</button>
-                <button class="btn option-btn" value="incorrect">DNA</button>
+    <section id="game2" class="container" style="display: none;">
+        <img src="assets\images\fingerprint.gif" alt="Question Image" class="image">
+            <div class="text-block">
+                <p>2. As we are all well aware of, each persons fingerprints are unique in this world. But there is something else that sets us aside from everybody else. What is it?</p>
+                <div class="answers">
+                    <button class="btn option-btn" value="incorrect">Hair follicles</button>
+                    <button class="btn option-btn" value="incorrect">Belly buttons</button>
+                    <button class="btn option-btn" value="correct">Tongue prints</button>
+                    <button class="btn option-btn" value="incorrect">DNA</button>
+                </div>
             </div>
-        </div>
-    </div>
+    </section>
 
 
-    <div id="game3" class="container" style="display: none;">
-        <div class="banner">
-            3. Oh là là
-        </div>
-        <div class="image">
-            <img src="assets\images\eiffeltower.png" alt="Eiffeltower Image">
-        </div>
-        <div class="text-block">
-            <p>Most of us are familiar with the Eiffel Tower in Paris, France. However, the architect and namesake to the monument, Gustave Eiffel, initially offered it to another country but got turned down because it was considered too ugly. Which country? </p>
-            <div class="answers">
-                <button class="btn option-btn" value="incorrect">Greece</button>
-                <button class="btn option-btn" value="incorrect">Italy</button>
-                <button class="btn option-btn" value="correct">Spain</button>
-                <button class="btn option-btn" value="incorrect">Portugal</button>
+    <section id="game3" class="container" style="display: none;">
+            <img src="assets\images\eiffeltower.png" alt="Question Image" class="image">
+            <div class="text-block">
+                <p>3. Most of us are familiar with the Eiffel Tower in Paris, France. However, the architect and namesake to the monument, Gustave Eiffel, initially offered it to another country but got turned down because it was considered too ugly. Which country? </p>
+                <div class="answers">
+                    <button class="btn option-btn" value="incorrect">Greece</button>
+                    <button class="btn option-btn" value="incorrect">Italy</button>
+                    <button class="btn option-btn" value="correct">Spain</button>
+                    <button class="btn option-btn" value="incorrect">Portugal</button>
+                </div>
             </div>
-        </div>
-    </div>
+    </section>
 
 
-    <div id="game4" class="container" style="display: none;">
-        <div class="banner">
-            4. Empire state of ants
-        </div>
-        <div class="image">
-            <img src="assets\images\empireants.png" alt="Ants Image">
-        </div>
+    <section id="game4" class="container" style="display: none;">
+        <img src="assets\images\empireants.png" alt="Question Image" class="image">
         <div class="text-block">
-            <p>Biologists have found a new species of ants that are indigenous only to the city of New York. The species is not named after the discoverer as per usual; instead, it's the city who has inspired the name. What is the species name?  </p>
+            <p>4. Biologists have found a new species of ants that are indigenous only to the city of New York. The species is not named after the discoverer as per usual; instead, it's the city who has inspired the name. What is the species name?  </p>
             <div class="answers">
-                <button class="btn option-btn" value="incorrect">Big apple ants</button>
-                <button class="btn option-btn" value="incorrect">Central ParkAnts</button>
-                <button class="btn option-btn" value="incorrect">Concrete jungle ants</button>
+                <button class="btn option-btn" value="incorrect">Big apple Ants</button>
+                <button class="btn option-btn" value="incorrect">EmpireAnts</button>
+                <button class="btn option-btn" value="incorrect">Concrete Ants</button>
                 <button class="btn option-btn" value="correct">ManhattAnts</button>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="game5" class="container" style="display: none;">
-        <div class="banner">
-            5. Cumulus calculation
-        </div>
-        <div class="image">
-            <img src="assets\images\cumuluscloud.png" alt="Cumuluscloud Image">
-        </div>
+    <section id="game5" class="container" style="display: none;">
+        <img src="assets\images\cumuluscloud.png" alt="Question Image"class="image">
         <div class="text-block">
-            <p>The formula for calculating weight is W = mg, but how much does something seemingly weightless actually weigh? A cumulus cloud with the dimensions of 1 cubic kilometre will weigh approximately how much?</p>
+            <p>5. The formula for calculating weight is W = mg, but how much does something seemingly weightless actually weigh? A cumulus cloud with the dimensions of 1 cubic kilometre will weigh approximately how much?</p>
             <div class="answers">
                 <button class="btn option-btn" value="correct">550 tons</button>
                 <button class="btn option-btn" value="incorrect">Nothing</button>
@@ -128,17 +103,12 @@
                 <button class="btn option-btn" value="incorrect">20 kilos</button>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="game6" class="container" style="display: none;">
-        <div class="banner">
-            6. Texas 
-        </div>
-        <div class="image">
-            <img src="assets\images\texaschainsaw.png" alt="Question Image">
-        </div>
+    <section id="game6" class="container" style="display: none;">
+        <img src="assets\images\texaschainsaw.png" alt="Question Image" class="image">
         <div class="text-block">
-            <p>Chainsaws are commonly associated with lumberjacks and logmen, but its original usage was a wee bit different. So what exactly was the purpose for inventing the chainsaw to begin with?</p>
+            <p>6. Chainsaws are commonly associated with lumberjacks and logmen, but its original usage was a wee bit different. So what exactly was the purpose for inventing the chainsaw to begin with?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">Lobotomy</button>
                 <button class="btn option-btn" value="correct">Child birth</button>
@@ -146,18 +116,13 @@
                 <button class="btn option-btn" value="incorrect">Siamese twins</button>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div id="game7" class="container" style="display: none;">
-        <div class="banner">
-            7. Ruy-Lopez
-        </div>
-        <div class="image">
-            <img src="assets\images\chess.png" alt="Question Image">
-        </div>
+    <section id="game7" class="container" style="display: none;">
+        <img src="assets\images\chess.png" alt="Question Image" class="image">
         <div class="text-block">
-            <p>If you played chess you probably know there are a few known moves. One especially famous is the opening move created by a Spanish bishop in the 1500s. But how many different moves can be made?</p>
+            <p>7. If you played chess you probably know there are a few known moves. One especially famous is the opening move created by a Spanish bishop in the 1500s. But how many different moves can be made?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">23 billions</button>
                 <button class="btn option-btn" value="incorrect">942</button>
@@ -165,7 +130,7 @@
                 <button class="btn option-btn" value="incorrect">1.26 millions</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <div id="resultBox" class="container" style="display: none; margin-top: 50px;">
         <div class="banner">
@@ -173,9 +138,9 @@
         </div>
         <img src="assets\images\weirdfactzbanner.png" alt="Quiz Keeper Ed" class="image">
         <div class="text-block">
-            <p>WOW, <span id="playerNameDisplay"></span>! Out of 70 points possible you scored <span id="scoreDisplay"></span> points.</p>
+            <p>WOW, <span id="playerNameDisplay"></span>! Out of 70 points you scored: <span id="scoreDisplay"></span></p>
             <button id="tryAgainBtn" class="btn">Try Again</button>
-        </div>    
+        </div>
     </div>
     
     <script src="assets/js/script.js"></script>
