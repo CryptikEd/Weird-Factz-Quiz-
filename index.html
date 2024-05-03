@@ -2,24 +2,35 @@
 <html lang="en-US">
 
 <head>
- <meta charset="UTF-8">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
     <meta name="description"content="The WEIRD FACTZ QUIZ">
     <meta name="keywords"content="The weird factz quiz, Weird facts quiz, quiz with weird facts, cool factz, weird factz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <!-- Page title -->
     <title>The WEIRD FACTZ Quiz</title>
+
+    <!-- Link to Google Font -->
     <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets\favicon\apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets\favicon\favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets\favicon\favicon-16x16.png">
     <link rel="manifest" href="assets\favicon\site.webmanifest">
+
+    <!-- Script for SweetAlert2 library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
-
+        <!-- Welcome section -->
     <section id="welcome" class="container">
-        <img src="assets\images\weirdfactzbanner.png" alt="Weird Facts Image" class="image">
+        <img src="assets\images\weirdfactzbanner.png" alt="weird Facts image" class="image">
         <div class="text-block">
             <p>Did you know that Australia is actually bigger than the moon? 
                 Me neither! 
@@ -29,9 +40,9 @@
             <button id="beginBtn" class="btn">Let's begin</button>
         </div>
     </section>
-
+        <!-- Introduction section -->
     <section id="beforewestart" class="container" style="display: none;">
-        <img src="assets\images\quizkeeper.gif" alt="Quiz Keeper Ed" class="image">
+        <img src="assets\images\quizkeeper.gif" alt="emoji logo image" class="image">
         <div class="text-block">
             <p>Before we get started, let's get to know each other. 
             <br>Im the Weird Factz quiz-keeper, but you can call me Ed!</p>
@@ -44,9 +55,11 @@
         </div>
     </section>
 
+        <!-- Quiz game sections -->
     <section id="game1" class="container" style="display: none;">
-        <img src="assets\images\lochness.png" alt="Question Image" class="image">
+        <img src="assets\images\lochness.png" alt="lochness monster image" class="image">
         <div class="text-block">
+                <!-- Question 1 -->
             <p>1. Scotland is known for both folklore and myths, just take the Loch Ness monster for example. However, their national animal is just on a another level. Which one is it?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">Leprechaun</button>
@@ -59,8 +72,9 @@
 
 
     <section id="game2" class="container" style="display: none;">
-        <img src="assets\images\fingerprint.gif" alt="Question Image" class="image">
+        <img src="assets\images\fingerprint.gif" alt="fingerprint gif image" class="image">
             <div class="text-block">
+                <!-- Question 2 -->
                 <p>2. As we are all well aware of, each persons fingerprints are unique in this world. But there is something else that sets us aside from everybody else. What is it?</p>
                 <div class="answers">
                     <button class="btn option-btn" value="incorrect">Hair follicles</button>
@@ -73,8 +87,9 @@
 
 
     <section id="game3" class="container" style="display: none;">
-            <img src="assets\images\eiffeltower.png" alt="Question Image" class="image">
+            <img src="assets\images\eiffeltower.png" alt="eiffeltower logo image" class="image">
             <div class="text-block">
+                <!-- Question 3 -->
                 <p>3. Most of us are familiar with the Eiffel Tower in Paris, France. However, the architect and namesake to the monument, Gustave Eiffel, initially offered it to another country but got turned down because it was considered too ugly. Which country? </p>
                 <div class="answers">
                     <button class="btn option-btn" value="incorrect">Greece</button>
@@ -87,8 +102,9 @@
 
 
     <section id="game4" class="container" style="display: none;">
-        <img src="assets\images\empireants.png" alt="Question Image" class="image">
+        <img src="assets\images\empireants.png" alt="ants walking on street image" class="image">
         <div class="text-block">
+                <!-- Question 4 -->
             <p>4. Biologists have found a new species of ants that are indigenous only to the city of New York. The species is not named after the discoverer as per usual; instead, it's the city who has inspired the name. What is the species name?  </p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">Big apple Ants</button>
@@ -100,8 +116,9 @@
     </section>
 
     <section id="game5" class="container" style="display: none;">
-        <img src="assets\images\cumuluscloud.png" alt="Question Image"class="image">
+        <img src="assets\images\cumuluscloud.png" alt="cumuluscloud Image"class="image">
         <div class="text-block">
+                <!-- Question 5 -->
             <p>5. The formula for calculating weight is W = mg, but how much does something seemingly weightless actually weigh? A cumulus cloud with the dimensions of 1 cubic kilometre will weigh approximately how much?</p>
             <div class="answers">
                 <button class="btn option-btn" value="correct">550 tons</button>
@@ -113,8 +130,9 @@
     </section>
 
     <section id="game6" class="container" style="display: none;">
-        <img src="assets\images\texaschainsaw.png" alt="Question Image" class="image">
+        <img src="assets\images\texaschainsaw.png" alt="animated chainsaw Image" class="image">
         <div class="text-block">
+                <!-- Question 6 -->
             <p>6. Chainsaws are commonly associated with lumberjacks and logmen, but its original usage was a wee bit different. So what exactly was the purpose for inventing the chainsaw to begin with?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">Lobotomy</button>
@@ -127,8 +145,9 @@
 
 
     <section id="game7" class="container" style="display: none;">
-        <img src="assets\images\chess.png" alt="Question Image" class="image">
+        <img src="assets\images\chess.png" alt="chess pawn Image" class="image">
         <div class="text-block">
+                <!-- Question 7 -->
             <p>7. If you played chess you probably know there are a few known moves. One especially famous is the opening move created by a Spanish bishop in the 1500s. But how many different moves can be made?</p>
             <div class="answers">
                 <button class="btn option-btn" value="incorrect">23 billions</button>
@@ -139,17 +158,18 @@
         </div>
     </section>
 
+         <!-- Result section -->
     <div id="resultBox" class="container" style="display: none; margin-top: 50px;">
         <div class="banner">
             Quiz Results
         </div>
-        <img src="assets\images\weirdfactzbanner.png" alt="Quiz Keeper Ed" class="image">
+        <img src="assets\images\weirdfactzbanner.png" alt="weird Facts image" class="image">
         <div class="text-block">
             <p>WOW, <span id="playerNameDisplay"></span>! Out of 70 points you scored: <span id="scoreDisplay"></span></p>
             <button id="tryAgainBtn" class="btn">Try Again</button>
         </div>
     </div>
-    
+        <!-- Link to JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
 
