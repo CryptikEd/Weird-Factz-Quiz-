@@ -96,6 +96,7 @@ background-color: #124b8d;
     }
 } 
 
+/* Media query for screens with max-width 768px */
 @media screen and (max-width: 480px) {
     .image{
       margin-top: 20px;
