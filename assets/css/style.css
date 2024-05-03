@@ -99,7 +99,7 @@ background-color: #124b8d;
 /* Media query for screens with max-width 768px */
 @media screen and (max-width: 480px) {
     .image{
-      margin-top: 20px;
+      margin-top: 70px;
       height: auto;
       width: auto;
     }
@@ -110,7 +110,18 @@ background-color: #124b8d;
     }
   
     .text-block{
-      margin: 30px 10px 0px 10px;
+      margin: 50px 10px 0px 10px;
       padding: 10px;
     }
   }
+
+  /* Media query for screens between 2000px and 769px */
+@media (min-width: 769px) and (max-width: 2000px) {
+  .option-btn {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}
