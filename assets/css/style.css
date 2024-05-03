@@ -95,3 +95,21 @@ background-color: #124b8d;
       text-overflow: ellipsis;
     }
 } 
+
+@media screen and (max-width: 480px) {
+    .image{
+      margin-top: 20px;
+      height: auto;
+      width: auto;
+    }
+  
+    .container {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  
+    .text-block{
+      margin: 30px 10px 0px 10px;
+      padding: 10px;
+    }
+  }
