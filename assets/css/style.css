@@ -1,30 +1,34 @@
+/* Body styles */
 body {
-    font-family:'ADLaM Display';
+    font-family:'ADLaM Display';  /* Font family for the entire document */
     font-size: 22px;
     margin: 0;
     padding: 0;
     background-color: #124b8d;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
+/* Container styles */
 .container {
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
   }
 
-
+/* Image styles */
 .image {
     margin-top: 10px;
     max-width: 100%;
     display: flex; 
 }
 
+/* Banner styles */
 .banner {
     color: white;
   
 }
 
+/* Text block styles, for quiz questions and buttons */
 .text-block {
     text-align: center ;
     color: #124b8d;
@@ -37,6 +41,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
+/* Button styles */
 .btn {
     background-color: slategrey;
     color: #fff;
@@ -48,26 +53,29 @@ body {
     transition: background-color 0.3s;
 }
   
+/* Option button styles, for quiz options button */
 .option-btn {
     padding:10px 20px;
     margin-top: 10px;
     width: 180px;
 }
-
+ /* Back button styles */
 .back-btn {
     padding: 10px 20px; 
     margin-top: 20px;
     
 }
-
+/* Hover effect for buttons */
 .btn:hover {
     background-color: #0056b3;
 }
 
+/* SweetAlert2 confirm button styles */
 .swal2-container button:where(.swal2-styled).swal2-confirm {
 background-color: #124b8d; 
 }
 
+/* Media query for screens with max-width 768px */
 @media screen and (max-width: 768px) {
     body{
       font-size: 15px;
@@ -86,4 +94,4 @@ background-color: #124b8d;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-}
+} 
