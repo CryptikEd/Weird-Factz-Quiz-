@@ -247,7 +247,16 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 
 ### Feature testing
 
-![Featuretesting](assets/images/Featuretesting.png)
+`First Time Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to learn weird and interesting facts in a interactive playfull way. | The Weird Factz Quiz game teaches the user (player) some weird, interesting facts in a fun interactive way. The site is available for use whenever is convenient to the user. |
+| I want to be able to play at any time, on any device. | The quiz website is developed with responsiveness in mind, and also functions on all devices. |
+| I want to be able to know my score at the end of the game. | The final game page lets the user know how many points they scored out of 70 points possible. |
+| I want to be able to easily play the game. | The quiz website is developed intuivitely, with a very straight forward design it lets the user know what is the next step. |
+
+
 
 ### Validator Testing
 
