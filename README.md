@@ -60,23 +60,23 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 
 - ### Target Audience
   
-  -  Users who are looking for a fun way to learn some weird facts. 
+  -  Users who are looking for a fun way to learn some weird facts 
     
 - ### User Stories
   
   #### *First time visitor goals*
   
-  - A user should be able to learn weird facts online whilst playing an interactive quiz game.
-  - A user should be able to play the quiz on any device.
-  - A user should be able to check their score.
-  - A user should be able to intuitively play the quiz game.
+  - A user should be able to learn weird facts online whilst playing an interactive quiz game
+  - A user should be able to play the quiz on any device
+  - A user should be able to check their score
+  - A user should be able to intuitively play the quiz game
 
   
 -  ### Quiz game Aim
 
-    - To increase knowledge about some weird facts.
-    - To provide a easy-to-play experience.
-    - To provide a fun experience.
+    - To increase knowledge about some weird facts
+    - To provide a easy-to-play experience
+    - To provide a fun experience
 
 ---
 
@@ -88,8 +88,9 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
 
 - Colors
   - I used #124b8d for background
-  - I used 1C364B for buttons
-  - I used #124b8d for hovering and chosing an answer option
+  - I used #19364b for buttons
+  - I used #d3d3d3 for text block
+  - I used #0056b3 for hovering over a button
 
  
 ![Weird Factz banner Color Scheme](assets/docs/testingimages/colorpicker.png)
@@ -102,7 +103,7 @@ The font used throughout the website was imported from Googlefonts. I chose the 
 
 - Text colors
   - I used #124b8d for inside the text block, to match the overall design
-  - I used #fffff for the buttons, for sufficient contrast
+  - I used #ffffff for the buttons, for sufficient contrast
  
 ![Googlefonts](assets/docs/testingimages/Adlamfontgoogle.png)
 
@@ -137,7 +138,7 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 ![Favicon](assets/images/snapshotscfb/navigationbar.png) 
 
 - *Alert*
-  - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
+  - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead 
 
 ![Sweetalert](assets/docs/testingimages/sweetalert.png)
   
@@ -146,11 +147,11 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 Introduces the user to the game and theme. 
 
 - *The Weird Factz quiz-banner*
-  - The focal point of the landing page is the fun image, it is custom made through canva (as all other images). It reveals the name of the game paired up with some weird and fun emojis, to give the user a clue of what is ahead.
+  - The focal point of the landing page is the fun image, it is custom made through canva (as all other images). It reveals the name of the game paired up with some weird and fun emojis, to give the user a clue of what is ahead
 - *Text block*
-  - There is a weird fact that introduces the user to the theme of the quiz.
+  - There is a weird fact that introduces the user to the theme of the quiz
 - *Let's begin button*
-  - At the bottom of the text block there is a button that invites the user to begin the game.
+  - At the bottom of the text block there is a button that invites the user to begin the game
   
 ![Main image](assets/docs/testingimages/mainpage.png)
 
@@ -161,11 +162,11 @@ The game will not start unless a name is input with the allowed letters a-z. The
 - *Gif*
    -  A smiley that winks at the user 
 - *Text block*
-   - The quizkeeper a.k.a mascot Ed is introduced, and also invites the user to enter their name.
+   - The quizkeeper a.k.a mascot Ed is introduced, and also invites the user to enter their name
 - *Ready button*
    - When the user wants to start the game, they simply press the ready button
 - *Back button*
-   - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
+   - If the user is unsure, they can press the back button and gets redirected to the main page of the game
  
 ![Enter name](assets/docs/testingimages/namepage.png)
 
@@ -178,7 +179,7 @@ The game consists of 7 quiz pages.
 - *Text block*
    - Question
 - *Answer buttons*
-   - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question.
+   - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question
 
 ![Quiz page](assets/docs/testingimages/quizpage.png)
 
@@ -189,9 +190,9 @@ Here the user gets a personalized greeting with their name, before getting to kn
 - *The Weird Factz quiz-banner*
   - The main page image with the quiz name is used once more to conclude the results
 - *Text block*
-  - The results are given to the user by letting them know how many point they scored out of 70.
+  - The results are given to the user by letting them know how many point they scored out of 70
 - *Try again button*
-  - Lets the user try again, by navigating them back to the main page.
+  - Lets the user try again, by navigating them back to the main page
  
 ![Score page](assets/docs/testingimages/scorepage.png)
 
@@ -270,15 +271,15 @@ Many small design flaws, which I throughout the project resolved.
 
 ### Unresolved bugs
 
-There is a problem with the banner image when testing the mobile dimensions on lighthouse, that causes the performance to be around 75-78 % (all others are 100%). I could not resolve it, however it looks great and still functions as wanted when used on a mobile device. It is that the image is a LCP, that makes it a wee bit slower.
+There is a problem with the banner image when testing the mobile dimensions on lighthouse, that causes the performance to be around 75-78 % (all others are 100%). I could not resolve it, however it looks great and still functions as wanted when used on a mobile device. LCP is gated due to the large image, that makes it a wee bit slower.
  
  [Back to top](<#contents>)
  
 ---
 
-## Features Left to Implement
+## Future Implements 
 
-- Addition of a scoreboard page with the points in set intervalls, related to a made-up funny character. And then the declaring of results. Depending on the users scorepoints, they will be given a character accordingly.
+- Addition of a scoreboard page with the points in set intervalls, related to a made-up funny character. And then the declaring of results on subsequent final game page. Depending on the users scorepoints, they will be given a character accordingly.
 
 ![Scoreboard and results](assets/docs/testingimages/wireframethought.png)
 
