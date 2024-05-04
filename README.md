@@ -1,15 +1,15 @@
 # The WEIRD FACTZ Quiz 
 
-![Project Image](assets/Testing/responsivetestimage.PNG)
+![Project Image](assets/docs/testingimages/responsivetest.PNG)
 
-This is a quiz website that will have your mind blown! 
+### The quiz website that will make you go shaking your head saying "this can't be true". Yet somehow it weirdly is! 
 ---
 
 ## Description
 
 The WEIRD FACTZ Quiz is a fun quiz game where some bizarre facts are revealed. The sole purpose is to learn something weirdly fascinating, while also having fun. As the theme of the game focuses on entertaining, it is suitable for anyone who enjoys to be able to say "DID YOU KNOW..." at the party or by the dinner table. It will definitely start a conversation to say the least!  
 
-The user-friendly interface and simple, yet fun design makes it accessible to anyone interested in learning whilst playing.
+The user-friendly interface and simple, yet fun design makes it accessible to anyone interested in learning whilst playing and earning points for each correct answer.
 
 Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
@@ -18,7 +18,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 * [User Experience](#user-experience-ux)
   * [Target Audience](#target-audience)
   * [User Stories](#user-stories)
-  * [Website Aim](#website-aim)
+  * [Quiz game Aim](#quiz-game-aim)
 
 * [Design](#design)
   * [Color Scheme](#color-scheme)
@@ -55,26 +55,28 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
   * [Acknowledgement ](#acknowledgement)
 
 ---
+
 ## User Experience (UX)
 
 - ### Target Audience
   
-  -  Users who are looking for a an easy-going way to learn about cryptocurrency
+  -  Users who are looking for a fun way to learn some weird facts. 
     
 - ### User Stories
   
   #### *First time visitor goals*
   
-  - A user should be able to understand the sites purpose immediately.
-  - A user should be able navigate the site easily and intuitively.
-  - A user should be able to identify the content of each section easily.
+  - A user should be able to learn weird facts online whilst playing an interactive quiz game.
+  - A user should be able to play the quiz on any device.
+  - A user should be able to check their score.
+  - A user should be able to intuitively play the quiz game.
 
   
--  ### Website Aim
+-  ### Quiz game Aim
 
-    - Deliver easy to understand and accessible information for anyone interested in learning more about cryptocurrency.
-    - To provide up-to-date information about cryptocurrency
-    - To provide valuable links for the user in their on-going search for knowledge about crypto
+    - To increase knowledge about some weird facts.
+    - To provide a easy-to-play experience.
+    - To provide a fun experience.
 
 ---
 
@@ -82,134 +84,164 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
 -  ### Color scheme
 
-As the Hero Image is the focal point when entering the website, I opted to keep the overall color scheme quite small. And since it is about currency a. k. a. money, I gravitated towards the green color palette. To make sure the green does not become overwhelmning I chose a gradient green color for the Header and Footer, but kept the rest of the colors in neutral grey.
+The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
 
 - Colors
-  - I used #00cc66 ,#009933 for Header and Footer
-  - I used #f2f2f2 for the navigation bar
-  - I used #9ea09f, #121413 for all underlines
-  - I used #e0e0e0 for the back to top
+  - I used #124b8d for background
+  - I used 1C364B for buttons
+  - I used #124b8d for hovering and chosing an answer option
 
  
-![Crypto For Beginners Color Scheme](assets/images/colorscheme.png)
+![Weird Factz banner Color Scheme](assets/docs/testingimages/colorpicker.png)
 
-![Green color gradient](assets/images/greencolorgradient.PNG)
+![Background color](assets/docs/testingimages/backgroundcolor.png)
 
 - ### Typography
 
-The fonts used throughout the website was imported from W3Schools. They are all arial/sans sarif. I used font family to be able to keep the same text style throughout the website.
+The font used throughout the website was imported from W3Schools. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
 
 - Text colors
-  - I used #FFFFFF for inside Header and Footer, to make sure sufficient contrasting
-  - I used #505250 for the sites different section headlines
-  - I used #242524d8 for the welcome text above the hero image
-  - I used #000000 for the text in the different sections and navigation bar
+  - I used #124b8d for inside the text block, to match the overall design
+  - I used #fffff for the buttons, for sufficient contrast
  
 ![W3Schools Font Example](assets/images/Fontfamily.PNG)
 
 - ### Imagery
 
-Given the website's focus on cryptocurrency, I aimed for a hero image that not only clearly represents the website's subject matter but also serves as an educational resource. This led me to select an image featuring various cryptocurrency logos, with each brand listed in the image description.
-
-The other two images were chosen as they suited the overall design, color scheme and content. They also have a bit of playfullness to them which I think goes well with beginner-friendly theme of the website.
+I opted to make all the images for the quiz game myself, to ensure they where customized for both my chosen content and design. I made sure that each image created suited the responding questions theme and that they varied in style (fotograph, animated, print etc.), to ensure it felt balanced.
 
 ---
 
 ## Wireframes
 
-Wireframes was created for desktop using balsamiq. 
+Wireframes was created for mobile device and desktop using balsamiq. I made three main wireframes for each device, the main page of the quiz, the enter your name and begin to play quiz page and a quiz question page.
 
-*Although wireframe only was created for desktop, the responsiveness on different screensizes were considered and resolved through media queries* 
 
-![Main Page](assets/Wireframeimage/wireframeff.PNG)
+
+![Mobile device](assets/docs/testingimages/wireframemobile.png)
+
+![Desktop](assets/docs/testingimages/wireframedesktop.png)
 
 
 [Back to top](<#contents>)
+
 ---
 
 ## Features
 
-The website contains of four sections besides the main landing page: About, Background, Future and Top 3 crypto. It is very easily navigated with different page areas that are targeted in the navigation bar. For extra ease there is a fixed back-to-top button. In the Top 3 Crypto section there are three external links that lets the user open a new tab with each respective Cryptocurrency website.
+The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated, intuitively used and responsive to all devices. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used.
 
-- *Navigation Bar*
-  - The fully responsive navigation bar is prominently featured on the Crypto for Beginners main page, providing easy access to essential sections such as About, Background, Future, and 3 Cryptos. This consistent navigation ensures users can seamlessly explore different aspects of cryptocurrency education without any hassle.
-  - It is particularly valuable for individuals who are new to the website and want to navigate between sections efficiently to learn more about cryptocurrency. 
+- *Favicon*
+  - A favicon is visible in the browser tab
+    
+![Favicon](assets/images/snapshotscfb/navigationbar.png) 
 
+- *Alert*
+  - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
+
+![Sweetalert](assets/images/snapshotscfb/navigationbar.png)
   
-  ![Navigation bar](assets/images/snapshotscfb/navigationbar.png)
+-  ### Main page
 
-- *Back to the top*
-  - As the user enters different sections (page areas), there is a “back to the top” button, that makes it easy for the user to go back to the navigation bar without the hassle of scrolling.
+Introduces the user to the game and theme. 
 
----
-
-## Main page
-
-- *Image*
-  - Underneath the navigation bar there is a picture of different cryptocurrency logos to give the user a clear indication of what the website is about. On the bottom of the image there is a numbered list featuring the name of the cryptocurrency logos, so the user knows exactly what they are looking at.
+- *The Weird Factz quiz-banner*
+  - The focal point of the landing page is the fun image, it is custom made through canva (as all other images). It reveals the name of the game paired up with some weird and fun emojis, to give the user a clue of what is ahead.
+- *Text block*
+  - There is a weird fact that introduces the user to the theme of the quiz.
+- *Let's begin button*
+  - At the bottom of the text block there is a button that invites the user to begin the game.
   
-  ![Main image](assets/images/snapshotscfb/Mainimage.PNG)
+![Main image](assets/images/snapshotscfb/Mainimage.PNG)
 
-- *About*
-  - The About section offers users an insightful overview of the Crypto for Beginners project, including my own journey, target audience, and the value it aims to provide. This section is vital for users seeking to understand the purpose and relevance of the website, helping them grasp the significance of learning about cryptocurrency in a beginner-friendly manner.
+-  ### Enter name page
 
-- *Background*
-  - The Background section delves into the history and evolution of cryptocurrency, tracing its origins from the late 20th century to the groundbreaking publication of the Bitcoin whitepaper in 2008.
-    This feature is valuable for users who are interested in gaining a deeper understanding of the foundational concepts behind cryptocurrency and its revolutionary impact on the financial landscape. 
+The game will not start unless a name is input with the allowed letters a-z. The name will also be stored throughout the entirety of the game.
+
+- *Gif*
+   -  A smiley that winks at the user 
+- *Text block*
+   - The quizkeeper a.k.a mascot Ed is introduced, and also invites the user to enter their name.
+- *Ready button*
+   - When the user wants to start the game, they simply press the ready button
+- *Back button*
+   - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
+ 
+![Enter name](assets/images/snapshotscfb/Mainimage.PNG)
+
+### Quiz pages
   
-- *Future*
-  - The Future section offers insights into the potential trajectory of cryptocurrency adoption and integration into mainstream financial systems. It explores predictions and trends regarding the future of crypto, highlighting opportunities and challenges that lie ahead.
-    This feature is beneficial for users looking to stay informed about the latest developments and potential advancements in the cryptocurrency space. 
+The game consists of 7 quiz pages.
+  
+- *Image* 
+   - Custom image to each question
+- *Text block*
+   - Question
+- *Answer buttons*
+   - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question.
 
-- *Top 3 Cryptocurrencies*
-  - The Top 3 Cryptocurrencies gives an overview of the most popular cryptocurrencies, including Bitcoin, Ethereum, and Ripple, along with their unique features and use cases. By showcasing prominent cryptocurrencies, this section helps users explore the diversity of digital assets and understand their functionalities.
-    It is particularly valuable for individuals looking to expand their knowledge and make informed decisions about cryptocurrency investments or participation in blockchain networks. Each cryptocurrency described has its own logo presented, and if pressed it will link the user to an external tab to their respective website.
+![Quiz page](assets/images/snapshotscfb/Mainimage.PNG)
 
-  ![Top 3 Crypto](assets/images/snapshotscfb/top3crypto.PNG)
+### Score page
+
+Here the user gets a personalized greeting with their name, before getting to know their score out of 70 points possible. Each correct answer is 10 points.
+
+- *The Weird Factz quiz-banner*
+  - The main page image with the quiz name is used once more to conclude the results
+- *Text block*
+  - The results are given to the user by letting them know how many point they scored out of 70.
+- *Try again button*
+  - Lets the user try again, by navigating them back to the main page.
+ 
+![Score page](assets/images/snapshotscfb/Mainimage.PNG)
+
 
  [Back to top](<#contents>)
+ 
  ---
 
  ## Technologies Used
 
-- HTML5 - Delivers the stucture and content for the website
-- CSS3 - Provides the styling for the website
-- Balsamiq - Used to create wireframes for the website
-- Gitpod - Used to develop the website and to push changes to Github repository 
-- Github - Used to host and deploy the website
+- HTML5 - Delivers the stucture and content for the quiz
+- CSS3 - Provides the styling for the quiz
+- JS5 - Makes the functions of the quiz work
+- Balsamiq - Used to create wireframes for the quiz
+- Gitpod - Used to develop the quiz and to push changes to Github repository 
+- Github - Used to host and deploy the quiz
 - VScode - Used initially to write and test code 
-- Paint - Used to resize images for readme content
+- Canva - Used to customize images for the quiz
+- Favicon - Used to make favicon
 
 ## Accessibility
 
 Throughout the developing of the website it has been of importance to ensure that it is as accessible as possible. This was achieved by:
 
   - Using semantic markup HTML
-  - Using a hover function on all areas in the header, to make sure the user knows what its specific use is
-  - Using a sans serif font, that is suitable for people with reading disabilities
+  - Using a hover hand signaling function in the desktop format, to ensure the user knows which button they press
+  - Removing the hover hand signaling function for buttons when using mobile devices
   - Using colors that are contrasting to make it easy to read 
 
 ---
 
 ## Testing
 
-Crypto For Beginners underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML and CSS code. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
+The Weird Factz Quiz underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML, CSS and JS code, with the exception of 3 undefined values in JS, however the undefined values are referencing to the sweetalert which is fully functioning. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
 
 - HTML validator test
 
-![HTML](assets/Testing/htmlvalidatortest.PNG)
+![HTML](assets/docs/testingimages/htmltest.PNG)
 
 - CSS validator test
 
-![CSS](assets/Testing/cssvalidatortest.PNG)
+![CSS](assets/docs/testingimages/csstest.PNG)
 
 - Lighthouse test: mobile 
 
-![Lighthouse](assets/Testing/mobilelighthousetest.png)
+![Lighthouse](assets/docs/testingimages/lighthousetestingmobile.PNG)
 
 - Lighthouse test: desktop
 
-![Lighthouse](assets/Testing/desktoplighthousetest.png)
+![Lighthouse](assets/docs/testingimages/lighthousetestingdesktop.PNG)
 
 ### Feature testing
 
@@ -221,6 +253,8 @@ Crypto For Beginners underwent rigorous testing to ensure functionality, usabili
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 - *CSS*
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+- *JS*
+  - No errors were found when passing through the official [(Jshint) validator](https://jigsaw.w3.org/css-validator/)
 
 ### Browser testing
 
@@ -228,18 +262,25 @@ Crypto For Beginners underwent rigorous testing to ensure functionality, usabili
 
 ### Bugs
 
-During the testing of responsiveness on different dimensions, there was an issue that effects the hero image, the image description and underlines so they do not adhere to the 100% width across all devices. The issue was resolved using media query for stacking elements when under 768 pixels.
+During the testing of responsiveness on different dimensions, there was an issue that effects the answer buttons. I solved it by using muliple media queries.
 
-Images could not upload in the beginning. It was resolved when I changed the location and gave the realtive path.
+Images did at first not center, I fixed it by adding display: flex. 
 
 Many small design flaws, which I throughout the project resolved.
+
+### Unresolved bugs
+
+There is a problem with the banner image when testing the mobile dimensions on lighthouse, that causes the performance to be around 75-78 % (all others are 100%). I could not resolve it, however it looks great and still functions as wanted when used on a mobile device. It is that the image is a LCP, that makes it a wee bit slower.
  
  [Back to top](<#contents>)
+ 
 ---
 
 ## Features Left to Implement
 
-- Addition of a glossary section to explain common terms and acronyms used in the cryptocurrency space.
+- Addition of a scoreboard page with the points in set intervalls, related to a made-up funny character. And then the declaring of results. Depending on the users scorepoints, they will be given a character accordingly.
+
+![Scoreboard and results](assets/docs/testingimages/wireframethought.png)
 
 
 ## Deployment
