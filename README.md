@@ -2,7 +2,7 @@
 
 ![Project Image](assets/docs/testingimages/responsivetest.PNG)
 
-### The quiz website that will make you go shaking your head saying "this can't be true". Yet somehow it weirdly is! 
+### The quiz website that will make you shake your head, saying "this can't be true". Yet somehow it weirdly is! 
 ---
 
 ## Description
@@ -152,7 +152,7 @@ Introduces the user to the game and theme.
 - *Let's begin button*
   - At the bottom of the text block there is a button that invites the user to begin the game.
   
-![Main image](assets/images/snapshotscfb/Mainimage.PNG)
+![Main image](assets/docs/testingimages/mainpage.png)
 
 -  ### Enter name page
 
@@ -167,7 +167,7 @@ The game will not start unless a name is input with the allowed letters a-z. The
 - *Back button*
    - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
  
-![Enter name](assets/images/snapshotscfb/Mainimage.PNG)
+![Enter name](assets/docs/testingimages/enternamepage.png)
 
 ### Quiz pages
   
@@ -180,7 +180,7 @@ The game consists of 7 quiz pages.
 - *Answer buttons*
    - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question.
 
-![Quiz page](assets/images/snapshotscfb/Mainimage.PNG)
+![Quiz page](assets/docs/testingimages/quizpage.png)
 
 ### Score page
 
@@ -193,7 +193,7 @@ Here the user gets a personalized greeting with their name, before getting to kn
 - *Try again button*
   - Lets the user try again, by navigating them back to the main page.
  
-![Score page](assets/images/snapshotscfb/Mainimage.PNG)
+![Score page](assets/docs/testingimages/scorepage.png)
 
 
  [Back to top](<#contents>)
