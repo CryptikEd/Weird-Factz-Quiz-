@@ -139,7 +139,7 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 - *Alert*
   - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
 
-![Sweetalert](assets/images/snapshotscfb/navigationbar.png)
+![Sweetalert](assets/docs/testingimages/sweetalert.png)
   
 -  ### Main page
 
