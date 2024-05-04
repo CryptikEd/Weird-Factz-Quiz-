@@ -245,7 +245,7 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 
 ![Lighthouse](assets/docs/testingimages/lighthousetestingdesktop.PNG)
 
-### Feature testing
+### Testing user stories
 
 `First Time Visitors`
 
@@ -256,7 +256,19 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 | I want to be able to know my score at the end of the game. | The final game page lets the user know how many points they scored out of 70 points possible. |
 | I want to be able to easily play the game. | The quiz website is developed intuivitely, with a very straight forward design it lets the user know what is the next step. |
 
+### Feature testing
 
+- All buttons work
+- 
+- Choice works to click on at quiz
+- Choice also make the correct answer button light green background and wrong red.
+- Choice also makes you go to the next question and loaded up image with the question.
+- That input field works, and store names in local storage.
+- Submit button leads to an alert message when no information, or invalid information such as numbers, is in the input field, it is enabled when you start typing the correct (a-z) lettering in the input field
+- When typing in the correct name and pressing ready button, it opens a alert welcoming the user name, and informing about the game ahead. When pressing ok in the alert it leads to the first question of the quiz.
+- That score gets stored in local storage and increments even if hidden under the duration of quiz
+- That score and name are stored and being retrieved and used on score page
+- That the site and all pages are responsive on all kinds of sizes of devices and screens
 
 ### Validator Testing
 
