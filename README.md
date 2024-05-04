@@ -84,7 +84,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 
 -  ### Color scheme
 
-The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
+The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for a more pleaserable user experience.
 
 - Colors
   - I used #124b8d for background
