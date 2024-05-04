@@ -167,7 +167,7 @@ The game will not start unless a name is input with the allowed letters a-z. The
 - *Back button*
    - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
  
-![Enter name](assets/docs/testingimages/enternamepage.png)
+![Enter name](assets/docs/testingimages/namepage.png)
 
 ### Quiz pages
   
