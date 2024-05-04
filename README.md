@@ -315,7 +315,7 @@ The live link can be found [here](https://cryptiked.github.io/Weird-Factz-Quiz-/
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [Cryptiked/TheWeirdFactzQuiz](https://cryptiked.github.io/Weird-Factz-Quiz-/)
+2. Go to the repository for this project, [Cryptiked/TheWeirdFactzQuiz](https://github.com/CryptikEd/Weird-Factz-Quiz-/)
 3. Click the Fork button in the top right corner.
 
   - ### How to clone
@@ -335,15 +335,13 @@ To clone the repository:
 
 ### Content
 
-- The information provided throughout the 
+- The information provided throughout the quiz game comes from two sources of articles, one is on a teachers website and the other one is on buzz feed. The two articles focuses on weird and fun facts.
   
-  [History of crypto](https://worldcoin.org/articles/history-of-cryptocurrency)
+  [We are teachers](https://wwww.weareteachers.com/weird-fun-facts/)
   
-  [Electronic Cash System](https://revelointel.com/project-breakdown/bitcoin)
-  
-  [Blockchain & cryptocurrencies](https://www.pwc.com/us/en/industries/financial-services/fintech/bitcoin-blockchain-cryptocurrency.html)
+  [Buzz feed](https://www.buzzfeed.com/dannicaramirez/weird-facts)
 
-- The Header and Footer color gradient was taken from WC3Schools color picker:
+- The color gradient was taken from WC3Schools color picker:
   
   [WC3School color picker](https://www.w3schools.com/colors/colors_picker.asp)
 
