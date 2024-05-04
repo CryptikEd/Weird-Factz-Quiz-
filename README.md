@@ -48,7 +48,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 * [Deployment](#deployment)
 
 * [Local Development ](#local-development) 
-  * [How to fork>](#how-to-fork)
+  * [How to fork](#how-to-fork)
   * [How to clone](#how-to-clone)
 
 * [Credits](#credits)
@@ -315,7 +315,7 @@ The live link can be found [here](https://cryptiked.github.io/Cryptoforbeginners
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [Cryptiked/Cryptoforbeginners ](https://cryptiked.github.io/Cryptoforbeginners/)
+2. Go to the repository for this project, [Cryptiked/TheWeirdFactzQuiz](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 3. Click the Fork button in the top right corner.
 
   - ### How to clone
@@ -323,7 +323,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [Cryptiked/Cryptoforbeginners ](https://cryptiked.github.io/Cryptoforbeginners/))
+2. Go to the repository for this project, [Cryptiked/TheWeirdFactzQuiz](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -335,7 +335,7 @@ To clone the repository:
 
 ### Content
 
-- The information provided throughout the Crypto For Beginners website was gathered from various reputable sources covering topics related to cryptocurrency, including articles, whitepapers and educational resources:
+- The information provided throughout the 
   
   [History of crypto](https://worldcoin.org/articles/history-of-cryptocurrency)
   
