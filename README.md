@@ -136,7 +136,7 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 - *Favicon*
   - A favicon is visible in the browser tab
     
-![Favicon](assets/images/snapshotscfb/navigationbar.png) 
+![Favicon](assets/docs/testingimages/faviconimage.png) 
 
 - *Alert*
   - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead 
