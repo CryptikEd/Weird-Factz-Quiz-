@@ -55,6 +55,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
   * [Acknowledgement ](#acknowledgement)
 
 ---
+
 ## User Experience (UX)
 
 - ### Target Audience
@@ -124,49 +125,59 @@ Wireframes was created for mobile device and desktop using balsamiq. I made thre
 
 
 [Back to top](<#contents>)
+
 ---
 
 ## Features
 
-The website contains of four sections besides the main landing page: About, Background, Future and Top 3 crypto. It is very easily navigated with different page areas that are targeted in the navigation bar. For extra ease there is a fixed back-to-top button. In the Top 3 Crypto section there are three external links that lets the user open a new tab with each respective Cryptocurrency website.
+The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated and intuitively used. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used. 
+- *Alert*
+  - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
 
-- *Navigation Bar*
-  - The fully responsive navigation bar is prominently featured on the Crypto for Beginners main page, providing easy access to essential sections such as About, Background, Future, and 3 Cryptos. This consistent navigation ensures users can seamlessly explore different aspects of cryptocurrency education without any hassle.
-  - It is particularly valuable for individuals who are new to the website and want to navigate between sections efficiently to learn more about cryptocurrency. 
-
+  ![Sweetalert](assets/images/snapshotscfb/navigationbar.png)
   
-  ![Navigation bar](assets/images/snapshotscfb/navigationbar.png)
-
-- *Back to the top*
-  - As the user enters different sections (page areas), there is a “back to the top” button, that makes it easy for the user to go back to the navigation bar without the hassle of scrolling.
-
 ---
-
 ## Main page
 
 - *Image*
-  - Underneath the navigation bar there is a picture of different cryptocurrency logos to give the user a clear indication of what the website is about. On the bottom of the image there is a numbered list featuring the name of the cryptocurrency logos, so the user knows exactly what they are looking at.
+  - The focal point of the landing page is the fun image, it is custom made through canva (as all other images). It reveals the name of the game paired up with some weird and fun emojis, to give the user a clue of what is ahead.
+- *Text block*
+  - There is a weird fact that introduces the user to the theme of the quiz.
+- *Let's begin button*
+  - At the bottom of the text block there is a button that invites the user to begin the game.
   
   ![Main image](assets/images/snapshotscfb/Mainimage.PNG)
 
-- *About*
-  - The About section offers users an insightful overview of the Crypto for Beginners project, including my own journey, target audience, and the value it aims to provide. This section is vital for users seeking to understand the purpose and relevance of the website, helping them grasp the significance of learning about cryptocurrency in a beginner-friendly manner.
+## Enter name page
 
-- *Background*
-  - The Background section delves into the history and evolution of cryptocurrency, tracing its origins from the late 20th century to the groundbreaking publication of the Bitcoin whitepaper in 2008.
-    This feature is valuable for users who are interested in gaining a deeper understanding of the foundational concepts behind cryptocurrency and its revolutionary impact on the financial landscape. 
+The game will not start unless a name is input with the allowed letters a-z. The name will also be stored throughout the entirety of the game.
+
+- *Gif*
+   -  A smiley that winks at the user 
+- *Text block*
+   - The quizkeeper a.k.a mascot Ed is introduced, and also invites the user to enter their name.
+- *Ready button*
+   - When the user wants to start the game, they simply press the ready button
+- *Back button*
+   - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
+ 
+   ![Enter name](assets/images/snapshotscfb/Mainimage.PNG)
+
+  ## Quiz pages
   
-- *Future*
-  - The Future section offers insights into the potential trajectory of cryptocurrency adoption and integration into mainstream financial systems. It explores predictions and trends regarding the future of crypto, highlighting opportunities and challenges that lie ahead.
-    This feature is beneficial for users looking to stay informed about the latest developments and potential advancements in the cryptocurrency space. 
+  The game consists of 7 quiz pages.
+  
+ - *Image* 
+   - Custom image to each question
+- *Text block*
+   - Question
+- *Answer buttons*
+   - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question.
 
-- *Top 3 Cryptocurrencies*
-  - The Top 3 Cryptocurrencies gives an overview of the most popular cryptocurrencies, including Bitcoin, Ethereum, and Ripple, along with their unique features and use cases. By showcasing prominent cryptocurrencies, this section helps users explore the diversity of digital assets and understand their functionalities.
-    It is particularly valuable for individuals looking to expand their knowledge and make informed decisions about cryptocurrency investments or participation in blockchain networks. Each cryptocurrency described has its own logo presented, and if pressed it will link the user to an external tab to their respective website.
-
-  ![Top 3 Crypto](assets/images/snapshotscfb/top3crypto.PNG)
+   ![Quiz page](assets/images/snapshotscfb/Mainimage.PNG)
 
  [Back to top](<#contents>)
+ 
  ---
 
  ## Technologies Used
@@ -234,6 +245,7 @@ Images could not upload in the beginning. It was resolved when I changed the loc
 Many small design flaws, which I throughout the project resolved.
  
  [Back to top](<#contents>)
+ 
 ---
 
 ## Features Left to Implement
