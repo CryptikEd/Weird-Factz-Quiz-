@@ -129,7 +129,12 @@ Wireframes was created for mobile device and desktop using balsamiq. I made thre
 
 ## Features
 
-The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated and intuitively used. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used.
+The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated, intuitively used and responsive to all devices. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used.
+
+- *Favicon*
+  - A favicon is visible in the browser tab
+    
+![Favicon](assets/images/snapshotscfb/navigationbar.png) 
 
 - *Alert*
   - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
@@ -197,22 +202,23 @@ Here the user gets a personalized greeting with their name, before getting to kn
 
  ## Technologies Used
 
-- HTML5 - Delivers the stucture and content for the website
-- CSS3 - Provides the styling for the website
-- JS5 - 
-- Balsamiq - Used to create wireframes for the website
-- Gitpod - Used to develop the website and to push changes to Github repository 
-- Github - Used to host and deploy the website
+- HTML5 - Delivers the stucture and content for the quiz
+- CSS3 - Provides the styling for the quiz
+- JS5 - Makes the functions of the quiz work
+- Balsamiq - Used to create wireframes for the quiz
+- Gitpod - Used to develop the quiz and to push changes to Github repository 
+- Github - Used to host and deploy the quiz
 - VScode - Used initially to write and test code 
-- Paint - Used to resize images for readme content
+- Canva - Used to customize images for the quiz
+- Favicon - Used to make favicon
 
 ## Accessibility
 
 Throughout the developing of the website it has been of importance to ensure that it is as accessible as possible. This was achieved by:
 
   - Using semantic markup HTML
-  - Using a hover function on all areas in the header, to make sure the user knows what its specific use is
-  - Using a sans serif font, that is suitable for people with reading disabilities
+  - Using a hover hand signaling function in the desktop format, to ensure the user knows which button they press
+  - Removing the hover hand signaling function for buttons when using mobile devices
   - Using colors that are contrasting to make it easy to read 
 
 ---
@@ -248,7 +254,7 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 - *CSS*
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 - *JS*
-  - No errors were found when passing through the official 
+  - No errors were found when passing through the official [(Jshint) validator](https://jigsaw.w3.org/css-validator/)
 
 ### Browser testing
 
@@ -256,11 +262,15 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 
 ### Bugs
 
-During the testing of responsiveness on different dimensions, there was an issue that effects the hero image, the image description and underlines so they do not adhere to the 100% width across all devices. The issue was resolved using media query for stacking elements when under 768 pixels.
+During the testing of responsiveness on different dimensions, there was an issue that effects the answer buttons. I solved it by using muliple media queries.
 
-Images could not upload in the beginning. It was resolved when I changed the location and gave the realtive path.
+Images did at first not center, I fixed it by adding display: flex. 
 
 Many small design flaws, which I throughout the project resolved.
+
+### Unresolved bugs
+
+There is a problem with the banner image when testing the mobile dimensions on lighthouse, that causes the performance to be around 75-78 % (all others are 100%). I could not resolve it, however it looks great and still functions as wanted when used on a mobile device. It is that the image is a LCP, that makes it a wee bit slower.
  
  [Back to top](<#contents>)
  
