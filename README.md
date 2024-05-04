@@ -31,6 +31,12 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 
 * [Main page](#main-page)
 
+* [Enter name page](#enter-name-page)
+
+* [Quiz pages](#quiz-pages)
+
+* [Score page](#score-page)
+
 * [Technologies Used](#technologies-used) 
 
 * [Accessibility ](#accessibility)
@@ -41,7 +47,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
   * [Browser Testing](#browser-testing)
   * [Bugs](#bugs)
 
-* [Features left to implement](#features-left-to-implement)
+* [Future implements](#future-implements)
 
 * [Deployment](#deployment)
 
@@ -117,8 +123,6 @@ I opted to make all the images for the quiz game myself, to ensure they where cu
 
 Wireframes was created for mobile device and desktop using balsamiq. I made three main wireframes for each device, the main page of the quiz, the enter your name and begin to play quiz page and a quiz question page.
 
-
-
 ![Mobile device](assets/docs/testingimages/wireframemobile.png)
 
 ![Desktop](assets/docs/testingimages/wireframedesktop.png)
@@ -142,7 +146,7 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 
 ![Sweetalert](assets/docs/testingimages/sweetalert.png)
   
--  ### Main page
+- ### Main page
 
 Introduces the user to the game and theme. 
 
@@ -170,7 +174,7 @@ The game will not start unless a name is input with the allowed letters a-z. The
  
 ![Enter name](assets/docs/testingimages/namepage.png)
 
-### Quiz pages
+-  ### Quiz pages
   
 The game consists of 7 quiz pages.
   
@@ -183,7 +187,7 @@ The game consists of 7 quiz pages.
 
 ![Quiz page](assets/docs/testingimages/quizpage.png)
 
-### Score page
+-  ### Score page
 
 Here the user gets a personalized greeting with their name, before getting to know their score out of 70 points possible. Each correct answer is 10 points.
 
