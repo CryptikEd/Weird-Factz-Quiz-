@@ -86,7 +86,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 
 -  ### Color scheme
 
-The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for a more pleaserable user experience.
+The color scheme was based from one of my favorite colors, a deep blue, also called polynesian blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for a more pleaserable user experience.
 
 - Colors
   - I used #124b8d for background
@@ -94,6 +94,7 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
   - I used #d3d3d3 for text block
   - I used #0056b3 for hovering over a button
 
+![Blue Color Scheme](assets/docs/testingimages/colorbackground.png)
  
 ![Weird Factz banner Color Scheme](assets/docs/testingimages/colorpicker.png)
 
@@ -345,9 +346,9 @@ To clone the repository:
   
   [WC3School color picker](https://www.w3schools.com/colors/colors_picker.asp)
 
-  The font was chosen from WC3Schools CSS Web Safe Fonts
+  The font was chosen from Google Fonts
 
-    [WC3School CSS web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
+    [Google fonts](https://fonts.google.com/specimen/ADLaM+Display)
   
 ### Media
 
