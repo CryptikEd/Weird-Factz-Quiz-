@@ -260,7 +260,12 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 
 ### Browser testing
 
-![Browsertesting](assets/images/Browsertesting.png)
+The Weird Factz Quiz was tested and fully functioning using the following browsers:
+
+- Google chrome (all devices)
+- Safari (all devices)
+- Firefox (all devices)
+- Brave (all devices)
 
 ### Bugs
 
