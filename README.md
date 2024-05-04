@@ -60,7 +60,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
 - ### Target Audience
   
-  -  Users who are looking for a fun way to learn something weird. 
+  -  Users who are looking for a fun way to learn some weird facts. 
     
 - ### User Stories
   
