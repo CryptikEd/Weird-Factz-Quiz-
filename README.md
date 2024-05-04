@@ -2,7 +2,7 @@
 
 ![Project Image](assets/docs/testingimages/responsivetest.PNG)
 
-This is a quiz website that will have your mind blown! 
+### This is a quiz website that will have your mind blown! 
 ---
 
 ## Description
@@ -87,10 +87,9 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
 
 - Colors
-  - I used #00cc66 ,#124b8d for background
-  - I used #f2f2f2 for buttons
-  - I used #9ea09f, #121413 for hovering and chosing an answer option
-  - I used #e0e0e0 for the back to top
+  - I used #124b8d for background
+  - I used 1C364B for buttons
+  - I used #124b8d for hovering and chosing an answer option
 
  
 ![Weird Factz banner Color Scheme](assets/docs/testingimages/colorpicker.png)
@@ -102,8 +101,8 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
 The font used throughout the website was imported from W3Schools. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
 
 - Text colors
-  - I used #FFFFFF for inside the text block, to match the overall design
-  - I used #505250 for the buttons, for sufficient contrast
+  - I used #124b8d for inside the text block, to match the overall design
+  - I used #fffff for the buttons, for sufficient contrast
  
 ![W3Schools Font Example](assets/images/Fontfamily.PNG)
 
@@ -130,25 +129,27 @@ Wireframes was created for mobile device and desktop using balsamiq. I made thre
 
 ## Features
 
-The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated and intuitively used. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used. 
+The quiz game contains of a main landing page, a enter name page, quiz pages and a score page. It is very easily navigated and intuitively used. There is one way to go and that's forward! When using a desktop it has a cursor that turns into a hand when hovering the buttons, on the mobile device it is simply your finger that's used.
+
 - *Alert*
   - When entering a name an alert pops up welcoming the user and letting them know there are 7 questions ahead. 
 
-  ![Sweetalert](assets/images/snapshotscfb/navigationbar.png)
+![Sweetalert](assets/images/snapshotscfb/navigationbar.png)
   
----
-## Main page
+-  ### Main page
 
-- *Image*
+Introduces the user to the game and theme. 
+
+- *The Weird Factz quiz-banner*
   - The focal point of the landing page is the fun image, it is custom made through canva (as all other images). It reveals the name of the game paired up with some weird and fun emojis, to give the user a clue of what is ahead.
 - *Text block*
   - There is a weird fact that introduces the user to the theme of the quiz.
 - *Let's begin button*
   - At the bottom of the text block there is a button that invites the user to begin the game.
   
-  ![Main image](assets/images/snapshotscfb/Mainimage.PNG)
+![Main image](assets/images/snapshotscfb/Mainimage.PNG)
 
-## Enter name page
+-  ### Enter name page
 
 The game will not start unless a name is input with the allowed letters a-z. The name will also be stored throughout the entirety of the game.
 
@@ -161,20 +162,34 @@ The game will not start unless a name is input with the allowed letters a-z. The
 - *Back button*
    - If the user is unsure, they can press the back button and gets redirected to the main page of the game.
  
-   ![Enter name](assets/images/snapshotscfb/Mainimage.PNG)
+![Enter name](assets/images/snapshotscfb/Mainimage.PNG)
 
-  ## Quiz pages
+### Quiz pages
   
-  The game consists of 7 quiz pages.
+The game consists of 7 quiz pages.
   
- - *Image* 
+- *Image* 
    - Custom image to each question
 - *Text block*
    - Question
 - *Answer buttons*
    - Each quiz comes with four answer options, each option has its own button. There is only one correct answer. The option button pressed will indicate if the answer was correct (highlights in green for a delay of o,3 sec), or incorrect (highlights in red for a delay of 0,3 sec) and open the next question.
 
-   ![Quiz page](assets/images/snapshotscfb/Mainimage.PNG)
+![Quiz page](assets/images/snapshotscfb/Mainimage.PNG)
+
+### Score page
+
+Here the user gets a personalized greeting with their name, before getting to know their score out of 70 points possible. Each correct answer is 10 points.
+
+- *The Weird Factz quiz-banner*
+  - The main page image with the quiz name is used once more to conclude the results
+- *Text block*
+  - The results are given to the user by letting them know how many point they scored out of 70.
+- *Try again button*
+  - Lets the user try again, by navigating them back to the main page.
+ 
+![Score page](assets/images/snapshotscfb/Mainimage.PNG)
+
 
  [Back to top](<#contents>)
  
@@ -184,6 +199,7 @@ The game will not start unless a name is input with the allowed letters a-z. The
 
 - HTML5 - Delivers the stucture and content for the website
 - CSS3 - Provides the styling for the website
+- JS5 - 
 - Balsamiq - Used to create wireframes for the website
 - Gitpod - Used to develop the website and to push changes to Github repository 
 - Github - Used to host and deploy the website
@@ -203,23 +219,23 @@ Throughout the developing of the website it has been of importance to ensure tha
 
 ## Testing
 
-Crypto For Beginners underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML and CSS code. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
+The Weird Factz Quiz underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML, CSS and JS code, with the exception of 3 undefined values in JS, however the undefined values are referencing to the sweetalert which is fully functioning. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
 
 - HTML validator test
 
-![HTML](assets/Testing/htmlvalidatortest.PNG)
+![HTML](assets/docs/testingimages/htmltest.PNG)
 
 - CSS validator test
 
-![CSS](assets/Testing/cssvalidatortest.PNG)
+![CSS](assets/docs/testingimages/csstest.PNG)
 
 - Lighthouse test: mobile 
 
-![Lighthouse](assets/Testing/mobilelighthousetest.png)
+![Lighthouse](assets/docs/testingimages/lighthousetestingmobile.PNG)
 
 - Lighthouse test: desktop
 
-![Lighthouse](assets/Testing/desktoplighthousetest.png)
+![Lighthouse](assets/docs/testingimages/lighthousetestingdesktop.PNG)
 
 ### Feature testing
 
@@ -231,6 +247,8 @@ Crypto For Beginners underwent rigorous testing to ensure functionality, usabili
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 - *CSS*
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+- *JS*
+  - No errors were found when passing through the official 
 
 ### Browser testing
 
@@ -250,7 +268,9 @@ Many small design flaws, which I throughout the project resolved.
 
 ## Features Left to Implement
 
-- Addition of a glossary section to explain common terms and acronyms used in the cryptocurrency space.
+- Addition of a scoreboard page with the points in set intervalls, related to a made-up funny character. And then the declaring of results. Depending on the users scorepoints, they will be given a character accordingly.
+
+![Scoreboard and results](assets/docs/testingimages/wireframethought.png)
 
 
 ## Deployment
