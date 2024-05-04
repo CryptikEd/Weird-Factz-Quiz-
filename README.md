@@ -28,14 +28,10 @@ Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 * [Wireframes](#wireframes)
 
 * [Features](#features)
-
-* [Main page](#main-page)
-
-* [Enter name page](#enter-name-page)
-
-* [Quiz pages](#quiz-pages)
-
-* [Score page](#score-page)
+  * [Main page](#main-page)
+  * [Enter name page](#enter-name-page)
+  * [Quiz pages](#quiz-pages)
+  * [Score page](#score-page)
 
 * [Technologies Used](#technologies-used) 
 
@@ -103,7 +99,7 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
 
 ![Background color](assets/docs/testingimages/backgroundcolor.png)
 
-- ### Typography
+-  ### Typography
 
 The font used throughout the website was imported from Googlefonts. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
 
@@ -113,7 +109,7 @@ The font used throughout the website was imported from Googlefonts. I chose the 
  
 ![Googlefonts](assets/docs/testingimages/Adlamfontgoogle.png)
 
-- ### Imagery
+-  ### Imagery
 
 I opted to make all the images for the quiz game myself, to ensure they where customized for both my chosen content and design. I made sure that each image created suited the responding questions theme and that they varied in style (fotograph, animated, print etc.), to ensure it felt balanced.
 
@@ -146,7 +142,7 @@ The quiz game contains of a main landing page, a enter name page, quiz pages and
 
 ![Sweetalert](assets/docs/testingimages/sweetalert.png)
   
-- ### Main page
+-  ### Main page
 
 Introduces the user to the game and theme. 
 
@@ -230,7 +226,7 @@ Throughout the developing of the website it has been of importance to ensure tha
 
 ## Testing
 
-The Weird Factz Quiz underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML, CSS and JS code, with the exception of 3 undefined values in JS, however the undefined values are referencing to the sweetalert which is fully functioning. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
+The Weird Factz Quiz underwent rigorous testing to ensure functionality, usability, and compatibility across different browsers and devices. Validation tests confirmed the absence of errors in both HTML, CSS and JS code, with the exception of one undefined variable in JS, however the undefined values are referencing to the sweetalert which is fully functioning. The website was tested on various browsers and screen sizes to ensure a consistent and optimal user experience.
 
 - HTML validator test
 
@@ -281,7 +277,7 @@ There is a problem with the banner image when testing the mobile dimensions on l
  
 ---
 
-## Future Implements 
+## Future implements 
 
 - Addition of a scoreboard page with the points in set intervalls, related to a made-up funny character. And then the declaring of results on subsequent final game page. Depending on the users scorepoints, they will be given a character accordingly.
 
