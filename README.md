@@ -2,7 +2,7 @@
 
 ![Project Image](assets/docs/testingimages/responsivetest.PNG)
 
-### This is a quiz website that will have your mind blown! 
+### The quiz website that will make you go shaking your head saying "this can't be true". Yet somehow it weirdly is! 
 ---
 
 ## Description
