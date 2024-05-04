@@ -18,7 +18,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 * [User Experience](#user-experience-ux)
   * [Target Audience](#target-audience)
   * [User Stories](#user-stories)
-  * [Website Aim](#website-aim)
+  * [Quiz game Aim](#quiz-game-aim)
 
 * [Design](#design)
   * [Color Scheme](#color-scheme)
@@ -83,7 +83,7 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
 -  ### Color scheme
 
-The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the backgroundcolor on all game pages. I used the same color as bakground color when creating the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
+The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the background color on all game pages. I used the same color as background color when creating all the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
 
 - Colors
   - I used #00cc66 ,#124b8d for background
@@ -92,37 +92,35 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
   - I used #e0e0e0 for the back to top
 
  
-![Crypto For Beginners Color Scheme](assets/images/colorscheme.png)
+![Weird Factz banner Color Scheme](assets/docs/testingimages/colorpicker.png)
 
-![Green color gradient](assets/images/greencolorgradient.PNG)
+![Background color](assets/docs/testingimages/backgroundcolor.png)
 
 - ### Typography
 
-The fonts used throughout the website was imported from W3Schools. They are all arial/sans sarif. I used font family to be able to keep the same text style throughout the website.
+The font used throughout the website was imported from W3Schools. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
 
 - Text colors
-  - I used #FFFFFF for inside Header and Footer, to make sure sufficient contrasting
-  - I used #505250 for the sites different section headlines
-  - I used #242524d8 for the welcome text above the hero image
-  - I used #000000 for the text in the different sections and navigation bar
+  - I used #FFFFFF for inside the text block, to match the overall design
+  - I used #505250 for the buttons, for sufficient contrast
  
 ![W3Schools Font Example](assets/images/Fontfamily.PNG)
 
 - ### Imagery
 
-Given the website's focus on cryptocurrency, I aimed for a hero image that not only clearly represents the website's subject matter but also serves as an educational resource. This led me to select an image featuring various cryptocurrency logos, with each brand listed in the image description.
-
-The other two images were chosen as they suited the overall design, color scheme and content. They also have a bit of playfullness to them which I think goes well with beginner-friendly theme of the website.
+I opted to make all the images for the quiz game myself, to ensure they where customized for both my chosen content and design. I made sure that each image created suited the responding questions theme and that they varied in style (fotograph, animated, print etc.), to ensure it felt balanced.
 
 ---
 
 ## Wireframes
 
-Wireframes was created for desktop using balsamiq. 
+Wireframes was created for mobile device and desktop using balsamiq. I made three main wireframes for each device, the main page of the quiz, the enter your name and begin to play quiz page and a quiz question page.
 
-*Although wireframe only was created for desktop, the responsiveness on different screensizes were considered and resolved through media queries* 
 
-![Main Page](assets/Wireframeimage/wireframeff.PNG)
+
+![Mobile device](assets/docs/testingimages/wireframemobile.png)
+
+![Desktop](assets/docs/testingimages/wireframedesktop.png)
 
 
 [Back to top](<#contents>)
