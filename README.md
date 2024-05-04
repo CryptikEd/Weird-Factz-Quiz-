@@ -251,11 +251,11 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 ### Validator Testing
 
 - *HTML*
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 - *CSS*
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 - *JS*
-  - No errors were found when passing through the official [(Jshint) validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found when passing through the official [(Jshint) validator](https://jshint.com/)
 
 ### Browser testing
 
