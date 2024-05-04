@@ -371,9 +371,9 @@ To clone the repository:
   
   [Coolors color picker](https://coolors.co/)
 
-  The font was chosen from Google Fonts
+- The font was chosen from Google Fonts
 
-    [Google fonts](https://fonts.google.com/specimen/ADLaM+Display)
+  [Google fonts](https://fonts.google.com/specimen/ADLaM+Display)
   
 ### Media
 
