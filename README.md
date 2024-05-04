@@ -1,6 +1,6 @@
 # The WEIRD FACTZ Quiz 
 
-![Project Image](assets/Testing/responsivetestimage.PNG)
+![Project Image](assets/docs/testingimages/responsivetest.PNG)
 
 This is a quiz website that will have your mind blown! 
 ---
@@ -9,7 +9,7 @@ This is a quiz website that will have your mind blown!
 
 The WEIRD FACTZ Quiz is a fun quiz game where some bizarre facts are revealed. The sole purpose is to learn something weirdly fascinating, while also having fun. As the theme of the game focuses on entertaining, it is suitable for anyone who enjoys to be able to say "DID YOU KNOW..." at the party or by the dinner table. It will definitely start a conversation to say the least!  
 
-The user-friendly interface and simple, yet fun design makes it accessible to anyone interested in learning whilst playing.
+The user-friendly interface and simple, yet fun design makes it accessible to anyone interested in learning whilst playing and earning points for each correct answer.
 
 Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
@@ -59,22 +59,23 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
 - ### Target Audience
   
-  -  Users who are looking for a an easy-going way to learn about cryptocurrency
+  -  Users who are looking for a fun way to learn something weird. 
     
 - ### User Stories
   
   #### *First time visitor goals*
   
-  - A user should be able to understand the sites purpose immediately.
-  - A user should be able navigate the site easily and intuitively.
-  - A user should be able to identify the content of each section easily.
+  - A user should be able to learn weird facts online whilst playing an interactive quiz game.
+  - A user should be able to play the quiz on any device.
+  - A user should be able to check their score.
+  - A user should be able to intuitively play the quiz game.
 
   
--  ### Website Aim
+-  ### Quiz game Aim
 
-    - Deliver easy to understand and accessible information for anyone interested in learning more about cryptocurrency.
-    - To provide up-to-date information about cryptocurrency
-    - To provide valuable links for the user in their on-going search for knowledge about crypto
+    - To increase knowledge about some weird facts.
+    - To provide a easy-to-play experience.
+    - To provide a fun experience.
 
 ---
 
@@ -82,12 +83,12 @@ Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
 
 -  ### Color scheme
 
-As the Hero Image is the focal point when entering the website, I opted to keep the overall color scheme quite small. And since it is about currency a. k. a. money, I gravitated towards the green color palette. To make sure the green does not become overwhelmning I chose a gradient green color for the Header and Footer, but kept the rest of the colors in neutral grey.
+The color scheme was based from one of my favorite colors, a deep sea blue. This was used as a the backgroundcolor on all game pages. I used the same color as bakground color when creating the images for the different game pages, for a cleaner look. As The Hero Image with its vibrant colors is the focal point when entering the gamesite, I opted to keep the overall color scheme for both text block and fonts quite neutral. But I made sure to keep contrasting colors for an more pleaserable user experience.
 
 - Colors
-  - I used #00cc66 ,#009933 for Header and Footer
-  - I used #f2f2f2 for the navigation bar
-  - I used #9ea09f, #121413 for all underlines
+  - I used #00cc66 ,#124b8d for background
+  - I used #f2f2f2 for buttons
+  - I used #9ea09f, #121413 for hovering and chosing an answer option
   - I used #e0e0e0 for the back to top
 
  
