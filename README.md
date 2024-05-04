@@ -286,7 +286,7 @@ There is a problem with the banner image when testing the mobile dimensions on l
 
 ## Deployment
 
-The Crypto For Beginners website was deployed to GitHub Pages. The deployment process involved configuring the repository settings to deploy from the master branch, resulting in automatic deployment upon selection. Users can access the deployed website through the GitHub Pages link.
+The Weird Factz quiz website was deployed to GitHub Pages. The deployment process involved configuring the repository settings to deploy from the master branch, resulting in automatic deployment upon selection. Users can access the deployed website through the GitHub Pages link.
 
     1. Go to the Settings tab of your GitHub repo.
 
@@ -306,7 +306,7 @@ The Crypto For Beginners website was deployed to GitHub Pages. The deployment pr
     7. Click View deployment to see the live site. 
 
 
-The live link can be found [here](https://cryptiked.github.io/Cryptoforbeginners/).
+The live link can be found [here](https://cryptiked.github.io/Weird-Factz-Quiz-/).
 
 ## Local Development
 
