@@ -152,7 +152,7 @@ Introduces the user to the game and theme.
 - *Let's begin button*
   - At the bottom of the text block there is a button that invites the user to begin the game.
   
-![Main image](assets/images/snapshotscfb/Mainimage.PNG)
+![Main image](assets/docs/testingimages/mainpage.png)
 
 -  ### Enter name page
 
