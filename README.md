@@ -259,13 +259,12 @@ The Weird Factz Quiz underwent rigorous testing to ensure functionality, usabili
 ### Feature testing
 
 - All buttons work
-- 
 - Choice works to click on at quiz
 - Choice also make the correct answer button light green background and wrong red.
 - Choice also makes you go to the next question and loaded up image with the question.
 - That input field works, and store names in local storage.
-- Submit button leads to an alert message when no information, or invalid information such as numbers, is in the input field, it is enabled when you start typing the correct (a-z) lettering in the input field
-- When typing in the correct name and pressing ready button, it opens a alert welcoming the user name, and informing about the game ahead. When pressing ok in the alert it leads to the first question of the quiz.
+- Submit button leads to an alert message when no information, or invalid information such as numbers, is in the input field. It ask the user to insert a name. 
+- When typing in a correct (a-z letters) name and pressing ready button, it opens a alert welcoming the user name, and informing about the game ahead. When pressing ok in the alert it leads to the first question of the quiz.
 - That score gets stored in local storage and increments even if hidden under the duration of quiz
 - That score and name are stored and being retrieved and used on score page
 - That the site and all pages are responsive on all kinds of sizes of devices and screens
@@ -290,7 +289,7 @@ The Weird Factz Quiz was tested and fully functioning using the following browse
 
 ### Bugs
 
-During the testing of responsiveness on different dimensions, there was an issue that effects the answer buttons. I solved it by using muliple media queries.
+During the testing of responsiveness on different dimensions, there was an issue that effects the answer buttons. I solved it by using multiple media queries.
 
 Images did at first not center, I fixed it by adding display: flex. 
 
@@ -364,7 +363,7 @@ To clone the repository:
 
 - The information provided throughout the quiz game comes from two sources of articles, one is on a teachers website and the other one is on buzz feed. The two articles focuses on weird and fun facts.
   
-  [We are teachers](https://wwww.weareteachers.com/weird-fun-facts/)
+  [We are teachers](https://www.weareteachers.com/weird-fun-facts/)
   
   [Buzz feed](https://www.buzzfeed.com/dannicaramirez/weird-facts)
 
