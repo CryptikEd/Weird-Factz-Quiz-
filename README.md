@@ -342,9 +342,9 @@ To clone the repository:
   
   [Buzz feed](https://www.buzzfeed.com/dannicaramirez/weird-facts)
 
-- The color gradient was taken from WC3Schools color picker:
+- The color gradient was taken from coolors color picker, using the banner image as reference:
   
-  [WC3School color picker](https://www.w3schools.com/colors/colors_picker.asp)
+  [Coolors color picker](https://coolors.co/)
 
   The font was chosen from Google Fonts
 
@@ -352,24 +352,14 @@ To clone the repository:
   
 ### Media
 
-- The images used on the Home page are sourced from Pixabay and Crypto logos, an open-source platform for high-quality images.
+- The images used on the quiz website are all sourced and customized by me using canva. Using images that their searchengine provided I added elements to customize both size, colors and layouts for each individual questions image.
+   
+   [Canva](https://www.canva.com/sv_se/)
 
-   [Pixabay link for the main image.](https://pixabay.com/vectors/image-set-interface-pictogram-3375234/)
- 
-   [Bitcoin, Ethereum and Ripple logos with links.](https://cryptologos.cc/)
- 
-  
-- The links used for the logos on the top 3 cryptocurrencies.
-  
-  [Bitcoin's website.](https://bitcoin.org/en/)
-  
-  [Ethereum's website.](https://bitcoin.org/en/)
-  
-  [Ripple's website.](https://ripple.com/)
 
 ### Acknowledgement 
 
-This website was developed as part of my project portfolio during my Fullstack Software Developer Diploma course. I would like to give a special thanks to my mentor Jubril and my tutor Kay for giving me helpful tips along the way. I also want to give a shout out to the slack community for many interesting and helpful posts.
+This website was developed as part of my project portfolio during my Fullstack Software Developer Diploma course. I would like to give a special thanks to my mentor Jubril and my tutor Kay for giving me helpful tips along the way. I also want to give a shout out to the slack community for many interesting and helpful posts. And a final thanks to my girlfriend Sheila, she is a real trooper and has supported me through out the ups and down, everybody should have a Sheila in their life.
 
  
 [Back to top](<#contents>)
