@@ -11,7 +11,7 @@ The WEIRD FACTZ Quiz is a fun quiz game where some bizarre facts are revealed. T
 
 The user-friendly interface and simple, yet fun design makes it accessible to anyone interested in learning whilst playing and earning points for each correct answer.
 
-Link to the quiz game [here](https://cryptiked.github.io/Cryptoforbeginners/)
+Link to the quiz game [here](https://cryptiked.github.io/Weird-Factz-Quiz-/)
 
 # Contents
 
@@ -98,13 +98,13 @@ The color scheme was based from one of my favorite colors, a deep sea blue. This
 
 - ### Typography
 
-The font used throughout the website was imported from W3Schools. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
+The font used throughout the website was imported from Googlefonts. I chose the ADLAM font because of its fun and soft look. I used font family to be able to keep the same text style throughout the website.
 
 - Text colors
   - I used #124b8d for inside the text block, to match the overall design
   - I used #fffff for the buttons, for sufficient contrast
  
-![W3Schools Font Example](assets/images/Fontfamily.PNG)
+![Googlefonts](assets/docs/testingimages/Adlamfontgoogle.png)
 
 - ### Imagery
 
