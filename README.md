@@ -209,7 +209,7 @@ Here the user gets a personalized greeting with their name, before getting to kn
 
 - HTML5 - Delivers the stucture and content for the quiz
 - CSS3 - Provides the styling for the quiz
-- JS5 - Makes the functions of the quiz work
+- JS5 - Makes the functions of the quiz interactive
 - Balsamiq - Used to create wireframes for the quiz
 - Gitpod - Used to develop the quiz and to push changes to Github repository 
 - Github - Used to host and deploy the quiz
