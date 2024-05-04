@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (!/^[a-zA-Z]+$/.test(playerName)) {
             Swal.fire("Please enter a valid name using only letters!");
         } else {
-            Swal.fire("Welcome, " + playerName + "! Let's start the quiz, there are 7 weird questions ahead");
+            Swal.fire("Welcome, " + playerName + "! Let's start the quiz, there are 7 weird questions ahead.");
             // Hide the quiz introduction page
             document.getElementById("beforewestart").style.display = "none";
             // Show the first question page
